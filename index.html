@@ -24,7 +24,7 @@
 
             <ul class="secondary-nav">
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Go Premuim</a></li>
+                <li class="go-premium-cta"><a href="#">Go Premuim</a></li>
                 
             </ul>
         </nav>
@@ -33,7 +33,7 @@
 
     </div>
     <section class="hero">
-        <div class="containor">
+        <div class="container">
              <div class="left-col">
                  <p class="subhead">Its's Nitty &amp; Gritty</p>
                  <h1>A Task App Tat Doesn't Stink</h1>
@@ -116,15 +116,21 @@
 
     <script>
 
-        const mobileBtn=document.getElementById('mobile-cta')
-               nav = document.querySelector('nav');
-               mobileBtn = document.getElementById('mobile-exit');
+        const mobileBtn = document.getElementById('mobile-cta'),
+              nav = document.querySelector('nav'), 
+              mobileBtnExit = document.getElementById('mobile-menu-exit');
 
-         mobileBtn.addEventListener('click',()=> {
-             nav.classList.add('menu-btn');
+              mobileBtn.addEventListener('click', () => {
+                  nav.classList.add('menu-btn');
+              })
 
+              mobileBtnExit.addEventListener('click', () => {
+                  nav.classList.remove('menu-btn');
+              })
 
-         })      
+    
+
+    
     </script>
     
 </body>
