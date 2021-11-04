@@ -348,7 +348,7 @@ nav li a:hover {
     display: flex;
   }
   .testimonials-section ul li {
-    margin: 0 1em;
+    margin: 2em 1em;
   }
   .contact-section {
     position: relative;
@@ -381,7 +381,7 @@ nav li a:hover {
     top: -4em;
   }
   .features-section:after {
-    content: 'none';
+    content: '';
     position: absolute;
     width: 200%;
     height: 20em;

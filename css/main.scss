@@ -337,7 +337,7 @@ section {
      .testimonials-section ul {
         display: flex;
         li {
-            margin: 0 1em;
+            margin: 2em 1em;
         }
         
      }
@@ -371,7 +371,7 @@ section {
             top: -4em;
         }
         &:after{
-            content: 'none';
+            content: '';
             position:absolute ;
             width: 200%;
             height: 20em;
